@@ -28,3 +28,10 @@ fixed_tests_False = (
     ( "spam",    "eggs"  )
 )
 """
+class Solution:
+    def __init__(self, chaine1, chaine2):
+        self.chaine1 = chaine1
+        self.chaine2 = chaine2
+    
+    def se_termine_par(self):
+        return self.chaine1.endswith(self.chaine2)
